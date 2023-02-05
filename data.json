@@ -1,0 +1,248 @@
+{
+    "Genesis": [
+        {
+            "name":"Genesis",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/6/6f/The_Genesis_emblem.png"
+        },
+        {
+            "name" : "Nemuro Kimiyuki",
+            "position" : "Goleiro",
+            "picture":"https://pm1.narvii.com/6836/73f6c633db539093cafd93f67a37a41371efaad6v2_hq.jpg",
+            "nameAlien":"Nero",
+            "gender":"Masculino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Kujirai Takanori",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/5/5a/Kujirai_Takanori.png",
+            "nameAlien":"Gale",
+            "gender":"Masculino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Kii Fumiko",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/f/f8/Kil_Fumiko.png",
+            "nameAlien":"Keeve",
+            "gender":"Feminino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Ishidaira Hanzou",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/0/01/Ishidaira_Hanzou.png",
+            "nameAlien":"Zohan",
+            "gender":"Masculino",
+            "element":"Terra",
+            "schoolYear":"2° Ano"
+        },
+            
+        {
+            "name" : "Hanesaki Gouta",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/f/f1/Hanesaki_Gouta.JPG",
+            "nameAlien":"Hauser",
+            "gender":"Masculino",
+            "element":"Terra",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Komazawa Kyouma",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/f/f1/Komazawa.png",
+            "nameAlien":"Koma",
+            "gender":"Masculino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Kui Ruru",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/7/7c/Quill.jpg",
+            "nameAlien":"Quill",
+            "gender":"Feminino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Akutsu Kiyoshi",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/e/e4/Akutsu_Kiyoshi_anime.png",
+            "nameAlien":"Ark",
+            "gender":"Masculino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Izuno Yuu",
+            "position" : "Atacante",
+            "picture":"https://cdn.myanimelist.net/images/characters/4/99978.jpg",
+            "nameAlien":"Wheeze",
+            "gender":"Masculino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Yagami Reina",
+            "position" : "Meio-Campista",
+            "picture":"https://pbs.twimg.com/media/E4U_XUVXEAAjpqd?format=jpg",
+            "nameAlien":"Ulvida",
+            "gender":"Feminino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Kiyama Hiroto",
+            "position" : "Atacante",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/a/ad/Gran.png",
+            "nameAlien":"Gran",
+            "gender":"Masculino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+        }
+    ],
+    "Chaos": [
+        {
+            "name":"Chaos",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/6/60/Chaos_Emblem.png"
+        },
+        {
+            "name" : "Ooiwa Kurando",
+            "position" : "Goleiro",
+            "picture":"https://ami.animecharactersdatabase.com/uploads/chars/5457-155935637.jpg",
+            "nameAlien":"Grent",
+            "gender":"Masculino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Barazono Hana",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/d/de/Hana.png",
+            "nameAlien":"Barra",
+            "gender":"Feminino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Gokukawa Kantarou",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/0/05/Gokka-sama.jpg",
+            "nameAlien":"Gokka",
+            "gender":"Masculino",
+            "element":"Terra",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Honba Geki",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/1/16/Bomba.jpg",
+            "nameAlien":"Bomber ",
+            "gender":"Masculino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+        },
+            
+        {
+            "name" : "Kurakake Kurara",
+            "position" : "Zagueiro",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/e/ea/Clara_in_Chaos.jpg",
+            "nameAlien":"Clara",
+            "gender":"Feminino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+        },
+        {
+            "name" : "Atsuishi Shigeto",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/3/3e/Atsuishi.PNG",
+            "nameAlien":"Heat",
+            "gender":"Masculino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Kadomichi Tooru",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/6/6d/Droll.jpg",
+            "nameAlien":"Droll",
+            "gender":"Masculino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Kurione Yuki",
+            "position" : "Meio-Campista",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/a/a4/Kurione_Yuki.jpg",
+            "nameAlien":"Lionne",
+            "gender":"Feminino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Suzuno Fuusuke",
+            "position" : "Atacante",
+            "picture":"http://pa1.narvii.com/6303/7e68ebe02d5c8fb0261ae1661b8bbca13b46c12e_00.gif",
+            "nameAlien":"Gazel",
+            "gender":"Masculino",
+            "element":"Vento",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Nagumo Haruya",
+            "position" : "Atacante",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/b/bf/Burn.png",
+            "nameAlien":"Burn",
+            "gender":"Masculino",
+            "element":"Fogo",
+            "schoolYear":"2° Ano"
+
+        },
+        {
+            "name" : "Netsuha Natsuhiko",
+            "position" : "Atacante",
+            "picture":"https://static.wikia.nocookie.net/inazuma-eleven/images/f/fb/Netsuha-sama.jpg",
+            "nameAlien":"Nepper",
+            "gender":"Masculino",
+            "element":"Madeira",
+            "schoolYear":"2° Ano"
+        }
+    ],
+    "Prominence": [
+        {
+            "name":"Prominence",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/7/7e/Prominence_Logo.png"
+        }
+    ],
+    "DiamondDust": [
+        {
+            "name":"Diamond Dust",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/a/a2/Diamond_Dust_emblem.png"
+        }
+    ],
+    "EpsilonKai": [
+        {
+            "name":"Epsilon Kai",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/7/7b/Epsilon_Remastered_emblem.png"
+        }
+    ],
+    "GeminiStorm": [
+        {
+            "name":"Gemini Storm",
+            "emblem":"https://static.wikia.nocookie.net/inazuma-eleven/images/d/db/Gemini_Storm_emblem.png"
+        }
+    ]
+}

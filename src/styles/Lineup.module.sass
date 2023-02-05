@@ -1,0 +1,73 @@
+@use 'var'
+@use 'mixins'
+    
+.lineup
+    
+    
+    ul
+        width: 400px
+        cursor: pointer
+        backdrop-filter: blur(20px)
+        list-style: none
+
+
+
+.listContainer
+    background-image: linear-gradient(-45deg, transparent, var.$glass-purple, transparent)
+    border-radius: 32px
+    box-shadow: 0px 10px 10px 5px rgba(black,.2)            
+            
+
+.nameTeam,.endList
+    background: var.$glass-dark
+    padding: 16px 32px
+    color: white
+    font-weight: 400
+    text-transform: uppercase
+    letter-spacing: 1px
+
+.nameTeam
+    border-radius: 32px 32px 0 0
+    @include mixins.hover()
+
+
+.endList
+    border-radius: 0 0 32px 32px
+
+
+
+
+.playerBar
+    color: white
+    display: flex
+    align-items: center
+    gap: 24px
+    padding: 16px 32px
+    font-weight: 200
+
+    @include mixins.hover()
+
+
+    .positionIcon
+        width: 28px
+
+
+
+.lightBG
+    background: var.$glass-light
+    &:hover
+        background: rgba(var.$primary-500,.1)
+
+
+.darkBG
+    background: var.$glass-dark
+    &:hover
+        background: rgba(var.$primary-500,.1)
+
+
+
+
+
+
+
+

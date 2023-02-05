@@ -1,0 +1,87 @@
+@use 'var'
+@use 'mixins'
+    
+.panel
+    color: white
+    position: relative
+    background-image: linear-gradient(-45deg, var.$glass-dark, var.$glass-purple, var.$glass-dark)
+    width: 500px
+    display: flex
+    flex-direction: column
+    padding-top: 200px
+    align-items: center
+    backdrop-filter: blur(10px)
+    box-shadow: 0px 10px 10px 5px rgba(black,.2)            
+    border-radius: 32px
+
+
+    .info_Container
+        display: flex
+        flex-direction: column
+        align-items: center
+    
+        width: 100%
+        padding: 0px 64px
+        
+        .player_Name
+            font-size: 24px
+            margin-bottom: 32px
+            padding-bottom: 12px
+            font-weight: 400
+            border-bottom: 4px solid rgba(var.$primary-500,.7)
+            @include mixins.hover(scale)
+
+        
+        .info_Row
+            width: 100%
+            display: flex
+            align-items: flex-center
+            justify-content: space-between
+            gap: 16px  
+            padding: 12px
+            font-weight: 200
+            @include mixins.hover(scale)
+
+
+
+            border-bottom: 1px solid rgba(var.$primary-500,.7)
+            
+            span img
+                margin-right: 8px
+            
+            span
+                display: flex
+                align-items: flex-center
+        
+        .team_Emblem
+            margin: 16px 0
+            width: 100px 
+            
+            @include mixins.hover(scale)
+
+               
+
+        
+    .picture
+        
+        position: absolute
+        width: 120px
+        height: 200px
+        object-fit: cover
+        object-position: top
+        top: -50px
+        left: 50%
+        transform: translate(-50%)
+        border: 2px solid rgba(var.$primary-500,.7)
+        box-shadow: 0px 25px 25px 5px rgba(black,0.5)
+        transition: 0.5s
+
+        &:hover
+            width: 125px
+            height: 205px
+
+
+        
+
+    .icon
+        width: 20px

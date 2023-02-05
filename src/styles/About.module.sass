@@ -1,0 +1,45 @@
+@use 'mixins'
+@use 'var'
+
+.about
+
+    display: flex
+    justify-content: center
+
+    .container
+        @include mixins.contentPage()
+
+
+        h1
+            margin-bottom: 32px
+
+        h1,h2
+            @include mixins.hover(scale)
+
+        
+        
+        img
+            width: 300px
+            @include mixins.hover(scale)
+
+
+    .gallery
+        width: 700px
+        display: flex
+        flex-wrap: wrap
+        gap: 16px
+        
+        .gallery_team
+            display: flex
+            flex-direction: column
+
+            span
+                margin: 16px 0
+
+        img
+            width: calc( 700px/2 - 16px)
+            height: 200px
+
+
+
+

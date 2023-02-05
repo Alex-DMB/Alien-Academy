@@ -1,0 +1,35 @@
+@use 'var'
+@use 'mixins'
+    
+.navbar
+    background: linear-gradient(to bottom,rgba(black,.7),transparent)
+    position: absolute
+    width: 100%
+    height: 150px
+    display: flex
+    justify-content: center
+    z-index: 99
+    ul
+        display: flex
+        
+        svg
+            font-size: 24px
+            color: var.$primary-100
+            filter: drop-shadow(0px 0px 10px var.$primary-100)
+
+        li
+            list-style: none
+            padding: 36px 16px
+            text-transform: uppercase
+            font-weight: 600
+            letter-spacing: 1px
+            @include mixins.hover(scale)
+
+
+            a
+                text-decoration: none
+                color: lighten(var.$primary-100,5%)
+
+                
+
+

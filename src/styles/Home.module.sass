@@ -1,0 +1,101 @@
+@use 'var'
+
+.home
+
+
+    
+    .bg2
+        position: relative
+        padding: 100px
+        top: 772px
+        display: flex
+        justify-content: center
+        width: 100%
+        height: calc( 100vh - 772px )
+        background: rgb(0,0,0)
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, var.$primary-900 50%)
+        z-index: 2
+
+    .bg
+        position: absolute
+        width: 100%
+        height: 780px
+        background-image: url('../img/homeBG.jpg')
+        animation: backgroundAnimation 120s linear infinite alternate
+        background-size: cover
+        background-repeat: no-repeat
+        filter: blur(5px)
+        z-index: -1
+
+
+    .line
+        position: absolute
+        width: 100%
+        height: 5px
+        animation: lineAnimation 2s linear infinite alternate
+        z-index: 9
+        
+	
+    .captains
+        width: 100%
+        position: absolute
+        top: 50px
+        z-index: 1
+
+        .title
+            position: absolute
+            top: 45% 
+            left: 20%
+            filter: drop-shadow(16px 16px 10px var.$primary-900)
+
+            h1,h2
+                background-image: linear-gradient(45deg, darken(var.$primary-100,8%), var.$primary-100, darken(var.$primary-100,10%))
+                -webkit-text-fill-color: transparent
+                -webkit-background-clip: text
+
+            h1
+                font-size: 80px
+                font-weight: 600
+                margin: -24px 0
+                background-clip: text
+
+            h2
+                font-size: 64px
+                font-weight: 600
+                margin-left: 48px
+
+
+        img 
+            position: relative
+            left: 48%
+            top: 5px
+            animation: aliens 2s linear infinite alternate
+            z-index: 1
+
+
+
+    
+    @keyframes lineAnimation
+        from
+            background: var.$primary-100
+        to
+            background: var.$primary-500
+
+
+    @keyframes aliens 
+        from 
+            top: 20px
+            filter: drop-shadow(0px 0px 10px transparent)
+        
+        to 
+            top: 5px
+            filter: drop-shadow(0px 0px 10px var.$primary-100)
+
+
+    @keyframes backgroundAnimation 
+        from 
+            background-position: center
+        
+        to 
+            background-position: top
+        

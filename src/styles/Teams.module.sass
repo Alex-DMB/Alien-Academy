@@ -1,0 +1,87 @@
+@use 'mixins'
+@use 'var'
+
+.teams
+
+
+    a
+        text-decoration: none
+
+
+    display: flex
+    justify-content: center
+
+    .container
+        @include mixins.contentPage()
+
+        h1
+            margin-bottom: 32px
+
+        h1,h2
+            @include mixins.hover(scale)
+        
+        img
+            @include mixins.hover(scale)
+
+
+    .teams_container
+        display: flex
+        flex-direction: column
+        gap: 16px
+        span
+            font-weight: 300
+            font-size: 28px
+            color: white
+        img
+            width: 75px
+
+        .team_container
+            @include mixins.hover(scale)
+            width: 400px
+            display: flex
+            align-items: center
+            gap: 16px
+            padding: 8px 24px
+            border: 1px solid transparent 
+            border-image-slice: 1
+            cursor: pointer
+            span
+                font-weight: 200
+                text-decoration: none
+                
+
+
+            
+        .genesis
+
+            border-image-source: linear-gradient(to right,#ABA6BB,transparent,#ABA6BB)
+            background: linear-gradient(to right, #aba6bb33,#ABA6BB,#aba6bb33)
+            justify-content: center
+            
+
+                
+        .chaos
+            border-image-source: linear-gradient(to right,#ABA6BB,transparent,#ABA6BB)
+            background: linear-gradient(to right, #5976A1,#A05959)
+            justify-content: center
+
+        .prominence
+            background: linear-gradient(to right,#A05959,var.$primary-900)
+            border-image-source: linear-gradient(to right,#ABA6BB,#26212F)
+
+        .diamonddust
+            background: linear-gradient(to left,#5976A0,var.$primary-900)
+            border-image-source: linear-gradient(to left,#ABA6BB,#26212F)
+            justify-content: end
+
+        .epsilonkai
+            background: linear-gradient(to right,#833E3E,var.$primary-900)
+            border-image-source: linear-gradient(to right,#ABA6BB,#26212F)
+
+
+        .geministorm
+            background: linear-gradient(to left,#5F6369,var.$primary-900)
+            border-image-source: linear-gradient(to left,#ABA6BB,#26212F)
+            justify-content: end
+
+
